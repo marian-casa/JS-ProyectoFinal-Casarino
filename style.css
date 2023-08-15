@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeefed;
+}
+.logo {
+    color: #000;
+    width: 150px; /* Ajusta el tamaño de acuerdo a tu logo */
+    margin: 10px 0; /* Ajusta el margen superior e inferior según sea necesario */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0 2rem;
+    border-top: 1px solid #000;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Ajusta el espaciado entre elementos del menú */
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #232515;
+
+}
+
+i{
+    width: 10px;
+}
+
+header{
+    background-color: #89b71c;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search button{
+    background-color: #89b71c;
+    border: none;
+    color: #fff;
+}
+.search input{
+    background-color: #eeefed;
+    border: none;
+    border-radius: .5rem;
+    padding-left: 10px;
+}
+.user-cart-favorites{
+    display: flex;
+    gap: 20px; 
+}
+.user{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.cart{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.favorites{
+    margin-left: 20px;
+    cursor: pointer;
+    color: #cc4b44;
+    
+}
+
+.carousel-inner{
+    height: 80svh;
+}
