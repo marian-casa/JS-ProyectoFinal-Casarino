@@ -22,7 +22,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 20px; /* Ajusta el espaciado entre elementos del menú */
-    
 }
 
 nav ul li a {
@@ -78,4 +77,49 @@ header{
 
 .carousel-inner{
     height: 80svh;
+}
+.productos_titulo{
+    text-align: center;
+    padding: 1rem;
+}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+.banner{
+    margin: 0 auto;
+}
+.carousel{
+    margin: 0 auto;
+}
+.carousel-item img{
+    object-fit: cover;
+}
+.card{
+    width: 15rem;
+}
+.btn{
+    width: 100%;
+}
+.card-body{
+    align-items: space-between;
+}
+.img-productos{
+    height: 40svh;
+    object-fit: cover;
+}
+.container_productos{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.boton-menu{
+    border: none;
+    border-radius: 1rem;
+    background-color: beige;
+    padding: .2rem .5rem;
+    margin-top: .5rem;
 }
