@@ -185,6 +185,7 @@ a {
     margin: 1rem;
     gap: 0 2rem;
     align-items: center;
+    width: 100%;
 }
 
 .carrito-productos div{

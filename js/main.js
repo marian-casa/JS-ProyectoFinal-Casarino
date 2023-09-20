@@ -74,7 +74,13 @@ function agregarAlCarrito(e) {
 
   const idBoton = e.currentTarget.id
   const productoAgregado = productos.find(producto => producto.id === idBoton)
-
+  Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Producto agregado correctamente',
+    showConfirmButton: false,
+    timer: 1000
+  })
 
   if (productosEnCarrito.some(producto => producto.id === idBoton)){
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton)
